@@ -33,7 +33,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/fontra/fontra.git
-        commit: cc0a3b40bcd9860d8b6382df1faf6122ec306a5b
+        commit: 860d4e2b425f0eff46498cd1574c97d94cea57c4
 
     build-commands:
       - python3 -m pip install --prefix=/app .
@@ -53,7 +53,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/fontra/fontra-pak.git
-        commit: 073d8cf920acd9c3d17bdedd30daecbede65147a
+        commit: 533b9fd71038082165eda28dd47ea6057955a775
 
       - type: file
         path: data/icons/xyz.fontra.FontraPak.svg
